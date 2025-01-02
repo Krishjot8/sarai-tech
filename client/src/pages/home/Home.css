@@ -1,0 +1,30 @@
+.intro-page{
+
+
+background-color: white;
+height: 60vh;
+width: 100%;
+margin-top: -195px;
+
+
+}
+
+@media screen {
+ 
+}
+
+h2{
+text-align: center;
+color: black;
+transform: translate(0px,50px);
+font-weight: bold;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro-paragraph{
+    text-align: center;
+    color: black;
+    margin-top: 95px;
+   
+    padding: 20px;
+}

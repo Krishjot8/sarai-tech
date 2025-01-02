@@ -1,0 +1,59 @@
+
+.user-login{
+transform: translate(145px,-15px);
+
+
+}
+.user-register{
+  transform: translate(145px,-21px);
+  
+  
+  }
+.navbar{
+background-color: rgba(75, 81, 87, 0.928);
+height: 100px;
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 1000;
+margin-bottom: 80px;
+align-items: center;
+
+}
+
+
+
+  .links{
+
+list-style-type: none;
+display: flex;
+justify-content: center;
+  }
+
+.links a{
+    color: rgb(40, 200, 254);
+}
+
+.links a:hover{
+    color: rgb(255, 255, 255);
+
+
+}
+
+nav li{
+    margin: 13px 20px 20px 30px;
+    margin-top: 20px;
+}
+
+
+
+nav .navbar-logo{
+
+width: 220px;
+height: 55px;
+cursor: pointer;
+margin-top: 5px;
+margin-left: 10px;
+margin-right: 10px;
+
+}

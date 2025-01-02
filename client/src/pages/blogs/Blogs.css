@@ -1,0 +1,14 @@
+.blogs-heading{
+
+    font-weight: bold;
+    transform: translate(0px,-285px);
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    }
+    .img-blogs{
+    
+    width: 1500px;
+    max-width: 100%;
+    height: 65vh;
+    }

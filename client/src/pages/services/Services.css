@@ -1,0 +1,14 @@
+.services-heading{
+
+font-weight: bold;
+transform: translate(0px,-285px);
+color: white;
+font-size: 45px;
+text-align: center;
+}
+.services-picture{
+
+width: 100%;
+max-width: 100%;
+height: 65vh;
+}

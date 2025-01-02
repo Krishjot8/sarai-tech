@@ -1,0 +1,37 @@
+
+.login-container{
+
+    width: 1500px;
+    margin-top: 415px;
+    transform: translate(-60px,-200px);
+}
+
+.sign-in-heading{
+
+    text-align: center;
+}
+
+
+
+form{
+
+    text-align: center;
+   
+}
+
+form input{
+    width: 15%;
+    height: 25px;
+    margin-top: 15px;
+}
+
+button{
+
+    margin-top: 20px;
+}
+
+.note{
+
+    transform: translate(630px,50px);
+    font-size: 12px;
+}
