@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build Output
+dist/
+build/
+
+# Caching and Temp Files
+.cache/
+.vite/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Static Cache and Artifacts
+*.cache
+*.log
+
+# Testing
+coverage/
+*.lcov
+
+# Editor/IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Files
+._*
+Thumbs.db
+ehthumbs.db
+
+# Package Lock Files (Optional, if you only want to track package.json)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
