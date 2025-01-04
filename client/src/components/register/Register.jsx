@@ -1,6 +1,5 @@
 import './Register.css';
 import { useForm } from 'react-hook-form';
-import { DatePicker } from 'rsuite';
 import  { useState } from 'react';
 
 
@@ -16,7 +15,19 @@ const Register = () => {
     console.log(data);
     alert('Registration Successful');
   };
-  const [date, setDate] = useState(null);
+
+  const [isFocused, setIsFocused] = useState(false);
+  const [date, setDate] = useState('');
+
+  const handleFocus = () => setIsFocused(true);
+  const handleBlur = (e) => {
+    if (!e.target.value) {
+      setIsFocused(false);
+    }
+  };
+
+ 
+
 
 
   return (
@@ -41,16 +52,14 @@ const Register = () => {
         </div>
 
         <div className="dateofbirth">
-        <DatePicker
-        value={date}
-        onChange={(newDate) => setDate(newDate)}
-        format="yyyy-MM-dd"
-        block
-        placeholder="Select Date of Birth"
-        ranges={[]}
-        style={{ width: 280 }}
-      />
-        </div>
+  <input type={isFocused || date ? 'date': 'text'}
+  value={date}
+  onChange={(e) => setDate(e.target.value)}
+  onFocus={handleFocus}
+  onBlur={handleBlur}
+placeholder="Date of Birth"
+  />
+</div>
         <div className="email">
           <input type="email" placeholder='Email Address' />
         </div>
