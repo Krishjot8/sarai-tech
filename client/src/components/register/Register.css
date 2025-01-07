@@ -16,22 +16,157 @@
 form{
 
     text-align: center;
+  
+
+}
+
+.grid-item {
+    display: grid;
+    flex-direction:row;
+  }
+
+.registration-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+ form input{
+   
+    
+    background-color: rgb(240, 243, 244);
+    color: black;
+height: 30px;
+font-size: 15px;
+  margin: -2px;
+  
+    border: 1px solid rgb(130, 132, 133);;
+    transform: translate(0px,60px);
+}
+
+.registration-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+
+    width: 1500px;
+    margin-top: 415px;
+    transform: translate(260px,-200px);
+  }
+
+
+form input::placeholder{
+   
+    color: rgb(111, 109, 109);
+    font-size: 15px;
+}
+
+.input-firstname{
+
+   width: 80%;
+   transform: translate(0px,40.5px);
+}
+
+.input-lastname{
+    width: 80%;
+    transform: translate(-65px,40.5px);
+
+}
+
+.input-address{
+    width: 119.5%;
+    transform: translate(-97px,41px);
+}
+
+
+.input-city{
+    width: 80%;
+    transform: translate(0px,53px);
+}
+
+.input-state{
+    width: 60%;
+    transform: translate(-80px,53px);
+}
+
+.input-zipcode{
+    width: 60%;
+    transform: translate(-190px,53px);
+}
+.input-country{
+    width: 60%; 
+    transform: translate(633px,-6px);
+}
+
+
+
+
+.input-email_address{
+    width: 95%;
+    transform: translate(-290px,67px);
+
+}
+.input-dateOfbirth{
+    width: 60%;
+    transform: translate(-330px,67px);
+
+}
+
+.input-phoneNumber{
+    width: 100%;
+    transform: translate(575px,7px);
+}
+
+
+
+
+
+.input-username{
+    width: 80%;
+    transform: translate(-310px,80px);
+}
+
+.input-password{
+    width: 86%;
+    transform: translate(-330px,80px);
+}
+.input-confirmPassword{
+    width: 86%;
+    transform: translate(593px,21px);
    
 }
 
-form input{
-    width: 15%;
-    height: 25px;
-    margin-top: 15px;
-}
-
 button{
-
-    margin-top: 20px;
+    margin-top: 100px;
+    background-color: rgb(174, 185, 187);
+    color:white;
+    border: 1px solid rgb(40, 200, 254);
 }
 
 .note{
 
-    transform: translate(630px,50px);
+    transform: translate(350px,20px);
     font-size: 12px;
+}
+
+.address{
+
+    
+}
+
+.error-message{
+
+color: red;
+font-size: 12px;
+margin-top: 5px;
+margin-left: 5px;
+
+}
+
+.input-wrapper{
+    
 }

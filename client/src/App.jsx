@@ -18,7 +18,6 @@ const App = () => {
         {/* Navbar is always visible */}
         <div className="navbar">
           <Navbar />
-          
         </div>
         {/* Dynamic content area */}
         <div className="main-content">
